@@ -8,16 +8,16 @@ class Node
         Node();
         virtual ~Node();
         Node(int x ,int y,int value);
-        Node* get_pnext();
-        Node *get_prev();
-        int get_X();
-        int get_Y();
-        int get_VALUE();
-        void set_pnext(Node *pnext);
-        void set_prev(Node *prev);
-        void set_X(int x);
-        void set_Y(int y);
-        void set_VALUE(int value);
+        Node* getPnext();
+        Node *getPrev();
+        int getX();
+        int getY();
+        int getValue();
+        void setPnext(Node *pnext);
+        void setPrev(Node *prev);
+        void setX(int x);
+        void setY(int y);
+        void setValue(int value);
         void set(int x,int y,int value);
         void print();
     private:
