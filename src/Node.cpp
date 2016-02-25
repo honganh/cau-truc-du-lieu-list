@@ -21,16 +21,16 @@ Node::Node(int x ,int y,int value){
     this->pNext = this;
     this->pRev = this;
 }
-Node* Node::get_pnext(){
+Node* Node::getPnext(){
     return this->pNext;
 }
-Node* Node::get_prev(){
+Node* Node::getPrev(){
     return this->pRev;
 }
-void Node::set_pnext(Node *pnext){
+void Node::setPnext(Node *pnext){
     this->pNext = pnext;
 }
-void Node::set_prev(Node *prev){
+void Node::setPrev(Node *prev){
     this->pRev = prev;
 }
 void Node::print()
