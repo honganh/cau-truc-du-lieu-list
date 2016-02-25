@@ -11,7 +11,7 @@ class Dlinkedlist
         //this method change follow queue or stack
         //class drive override
         virtual Node* remove()= 0 ;
-        bool isempty();
+        bool isEmpty();
         void print();
     protected:
         //pointer head of list
