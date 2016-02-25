@@ -12,7 +12,7 @@ Dlinkedlist::~Dlinkedlist()
     delete this->head;
     delete this->tail;
 }
-bool Dlinkedlist::isempty()
+bool Dlinkedlist::isEmpty()
 {
     if(this->size == 0)
     {
@@ -35,7 +35,7 @@ bool Dlinkedlist::insert(int x ,int y ,int value)
     }
     else
     {
-        if( this->isempty() )
+        if( this->isEmpty() )
         {
             //list empty
             this->head->setPnext(tmp);
@@ -49,7 +49,7 @@ bool Dlinkedlist::insert(int x ,int y ,int value)
             tmp->setPnext(this->head->getPnext());
             tmp->getPnext()->setPrev(tmp);
             tmp->setPrev(this->head);
-            this->head->set_pnext(tmp);
+            this->head->setPnext(tmp);
 
         }
         this->size++;
@@ -59,7 +59,7 @@ bool Dlinkedlist::insert(int x ,int y ,int value)
 }
 void Dlinkedlist::print()
 {
-    if( this->isempty() )
+    if( this->isEmpty() )
     {
         printf("\n Empty .");
     }
