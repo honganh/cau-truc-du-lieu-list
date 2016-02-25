@@ -2,14 +2,18 @@
 
 Queue::Queue():Dlinkedlist(){}
 Queue::~Queue(){}
-Node* Queue::remove(){
-    if(this->isempty()){
+Node* Queue::remove()
+{
+    if( this->isempty() )
+    {
         return NULL;
-    }else{
+    }
+    else
+    {
         Node *tmp = new Node();
-        tmp = this->tail->get_prev();
-        (tmp->get_prev())->set_pnext(this->tail);
-        this->tail->set_prev(tmp->get_prev());
+        tmp = this->tail->getPrev();
+        (tmp->getPrev())->setPnext(this->tail);
+        this->tail->setPrev(tmp->getPrev());
         this->size--;
         return tmp;
     }
