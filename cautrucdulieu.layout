@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="include/Dlinkedlist.h" open="1" top="0" tabpos="1">
+		<Cursor position="286" topLine="0" />
+	</File>
+	<File name="include/File.h" open="1" top="0" tabpos="9">
+		<Cursor position="466" topLine="1" />
+	</File>
+	<File name="include/Node.h" open="1" top="0" tabpos="11">
+		<Cursor position="133" topLine="3" />
+	</File>
+	<File name="include/Search.h" open="1" top="0" tabpos="6">
+		<Cursor position="705" topLine="12" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="612" topLine="0" />
+	</File>
+	<File name="src/Dlinkedlist.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1050" topLine="27" />
+	</File>
+	<File name="src/File.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="1933" topLine="60" />
+	</File>
+	<File name="src/Node.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="468" topLine="24" />
+	</File>
+	<File name="src/Queue.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="378" topLine="0" />
+	</File>
+	<File name="src/Search.cpp" open="1" top="1" tabpos="7">
+		<Cursor position="1788" topLine="42" />
+	</File>
+	<File name="src/Stack.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="106" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

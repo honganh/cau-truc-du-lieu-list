@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1355096271 source:/home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/file.cpp
+	"file.h"
+
+1355090812 /home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/file.h
+	<stdio.h>
+
+1355216037 source:/home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/main.cpp
+	"include/Search.h"
+	"include/Queue.h"
+
+1355095468 /home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/include/Queue.h
+	"Dlinkedlist.h"
+
+1355195890 /home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/include/Dlinkedlist.h
+	"Node.h"
+
+1355210870 /home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/include/Node.h
+	<stdio.h>
+
+1355095647 /home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/include/Stack.h
+	"Dlinkedlist.h"
+
+1355213246 source:/home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/src/Dlinkedlist.cpp
+	"../include/Dlinkedlist.h"
+
+1355213264 source:/home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/src/Node.cpp
+	"../include/Node.h"
+
+1355195527 source:/home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/src/Queue.cpp
+	"../include/Queue.h"
+
+1355195488 source:/home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/src/Stack.cpp
+	"../include/Stack.h"
+
+1355208900 source:/home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/src/File.cpp
+	"../include/File.h"
+
+1355208063 /home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/include/File.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Node.h"
+
+1355196196 /home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/include/Search.h
+	"File.h"
+	"Queue.h"
+	"Stack.h"
+	<string.h>
+
+1355214246 source:/home/honganh/desktop/tmp/sourforge/khochuacode-code-0/cc++/cautrucdulieu/cautrucdulieu/src/Search.cpp
+	"../include/Search.h"
+
