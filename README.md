@@ -1,2 +1,4 @@
-# cau-truc-du-lieu-list
-link list data structure example c++
+# data structure
+- link list data structure example 
+- language: c++
+- include: node, queue, stack
