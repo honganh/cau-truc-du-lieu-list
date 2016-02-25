@@ -1,7 +1,7 @@
 /*
 @package:cautrucdulieu
 @subpackage:DFS-BFS algorithm
-@author :Pham Van Diep
+@author :honganh
 @contact:pndhainam@hotmail.com
 */
 
