@@ -12,35 +12,43 @@ Dlinkedlist::~Dlinkedlist()
     delete this->head;
     delete this->tail;
 }
-bool Dlinkedlist::isempty(){
-    if(this->size == 0){
+bool Dlinkedlist::isempty()
+{
+    if(this->size == 0)
+    {
         return true ;
-
-    }else{
+    }
+    else
+    {
         return false ;
     }
 
 }
-bool Dlinkedlist::insert(int x ,int y ,int value){
+bool Dlinkedlist::insert(int x ,int y ,int value)
+{
     Node *tmp = new Node(x,y,value);
-
-    if(tmp == NULL){
+    
+    if( tmp == NULL )
+    {
         printf("\nKhong the tao node");
         return false;
-    }else{
-        if(this->isempty()){
+    }
+    else
+    {
+        if( this->isempty() )
+        {
             //list empty
-            this->head->set_pnext(tmp);
-            this->tail->set_prev(tmp);
-            tmp->set_prev(this->head);
-            tmp->set_pnext(this->tail);
-
-
-        }else{
+            this->head->setPnext(tmp);
+            this->tail->setPrev(tmp);
+            tmp->setPrev(this->head);
+            tmp->setPnext(this->tail);
+        }
+        else
+        {
             //not empty
-            tmp->set_pnext(this->head->get_pnext());
-            tmp->get_pnext()->set_prev(tmp);
-            tmp->set_prev(this->head);
+            tmp->setPnext(this->head->getPnext());
+            tmp->getPnext()->setPrev(tmp);
+            tmp->setPrev(this->head);
             this->head->set_pnext(tmp);
 
         }
@@ -51,14 +59,18 @@ bool Dlinkedlist::insert(int x ,int y ,int value){
 }
 void Dlinkedlist::print()
 {
-    if(this->isempty()){
+    if( this->isempty() )
+    {
         printf("\n Empty .");
-    }else{
+    }
+    else
+    {
         Node *tmp = new Node();
-        tmp = this->head->get_pnext();
-        while(tmp != this->tail && tmp != NULL){
+        tmp = this->head->getPnext();
+        while( tmp != this->tail && tmp != NULL )
+        {
             tmp->print();
-            tmp = tmp->get_pnext();
+            tmp = tmp->getPnext();
         }
         //delete tmp;
     }
